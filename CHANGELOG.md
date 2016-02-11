@@ -1,5 +1,12 @@
 # PIGATO CHANGELOG
 
+### v0.0.45
+* Minor fix
+
+### v0.0.44
+* Improved internal structures.
+* Added support for Worker liveness refresh via Client.
+
 ### v0.0.43
 * Js lint
 * BREAKING: Worker and Client now must specificy 'prefix' instead of 'name'. The socket identifier is generated using 'prefix' followed by a random uuid. This fixes issues in socket identifier overlapping.
